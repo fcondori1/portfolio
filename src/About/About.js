@@ -8,4 +8,4 @@ function About(props) {
     );
 }
 
-export default About;Hello from About
+export default About;
