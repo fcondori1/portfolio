@@ -1,0 +1,14 @@
+.box {
+	border: solid black;
+	height: 200px;
+	width: 300px;
+}
+
+.bigBox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 500px;
+	margin-right: 500px;
+}

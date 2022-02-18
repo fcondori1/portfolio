@@ -1,0 +1,14 @@
+.container {
+    border: solid black 1px;
+    /* padding: 10; */
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
