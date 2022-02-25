@@ -1,0 +1,45 @@
+.container {
+    border: solid black 1px;
+    padding: 0px 20px;
+    margin: 50px;
+    box-shadow: 10em;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* flex-grow: inherit; */
+}
+
+.info {
+    /* border: red solid 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    margin-right: auto;
+}
+
+.picture {
+    background-image: url('/assets/frank.png');
+    background-size: 100%;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    /* border: red solid 10px; */
+    padding: 50px;
+}

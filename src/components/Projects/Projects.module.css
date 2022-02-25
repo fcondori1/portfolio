@@ -1,0 +1,45 @@
+
+.box1 {
+	background-image: url('/assets/Felp.png');
+	background-size: cover;
+	width: 400px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+.box2 {
+	background-image: url('/assets/Golazo.png');
+	background-size: cover;
+	width: 400px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+.box3 {
+	background-image: url('/assets/My-Gifts.png');
+	background-size: cover;
+	width: 400px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+.box4 {
+	background-image: url('/assets/Bridge-Game.png');
+	background-size: cover;
+	width: 400px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+.bigBox {
+	margin: 40px;
+}
+
+.infoBox {
+	display: flex;
+	flex-direction: row;
+}

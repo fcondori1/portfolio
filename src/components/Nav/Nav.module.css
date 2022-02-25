@@ -1,0 +1,20 @@
+.navLists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navList {
+    margin: 10px 80px;
+    text-decoration: none;
+}
+
+.navList:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navLink {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

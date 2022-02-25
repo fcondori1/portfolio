@@ -1,10 +1,10 @@
 import './App.css';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import Welcome from './Welcome/Welcome';
-import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
-import About from './About/About';
-import Nav from './Nav/Nav';
+import Welcome from './components/Welcome/Welcome';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import About from './components/About/About';
+import Nav from './components/Nav/Nav';
 
 function App() {
 	const { pathname } = useLocation();
