@@ -9,3 +9,7 @@
 a {
     text-decoration: none;
 }
+
+.animate__animated .animate__pulse  {
+	--animate-duration: 2s;
+}
