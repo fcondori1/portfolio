@@ -5,20 +5,60 @@ function Projects(props) {
 	return (
 		<div className={styles.bigBox}>
 			<div className={styles.infoBox}>
-				<div className={styles.box1}></div>
-				<p>Felp</p>
+				<a href='https://felp-official.netlify.app/' target='_blank'>
+					<div className={styles.box1}></div>
+				</a>
+				<div className={styles.boxes}>
+					<p className={styles.details}>Felp</p>
+					<p className={styles.details}>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id quas
+						dolore eveniet! Beatae doloribus necessitatibus, illo dicta officiis
+						id reiciendis. Corrupti, ducimus? Cupiditate, obcaecati adipisci
+						aspernatur temporibus delectus fugit.
+					</p>
+				</div>
 			</div>
 			<div className={styles.infoBox}>
-				<div className={styles.box2}></div>
-				<p>Golazo Highlights App</p>
+				<a href='https://sleepy-sammet-19bc3d.netlify.app/' target='_blank'>
+					<div className={styles.box2}></div>
+				</a>
+				<div className={styles.boxes}>
+					<p className={styles.details}>Golazo Highlights App</p>
+					<p className={styles.details}>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id quas
+						dolore eveniet! Beatae doloribus necessitatibus, illo dicta officiis
+						id reiciendis. Corrupti, ducimus? Cupiditate, obcaecati adipisci
+						aspernatur temporibus delectus fugit.
+					</p>
+				</div>
 			</div>
 			<div className={styles.infoBox}>
-				<div className={styles.box3}></div>
-				<p>My Gifts</p>
+				<a href='https://my-gifts.netlify.app/' target='_blank'>
+					<div className={styles.box3}></div>
+				</a>
+				<div className={styles.boxes}>
+					<p className={styles.details}>My Gifts</p>
+					<p className={styles.details}>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id quas
+						dolore eveniet! Beatae doloribus necessitatibus, illo dicta officiis
+						id reiciendis. Corrupti, ducimus? Cupiditate, obcaecati adipisci
+						aspernatur temporibus delectus fugit.
+					</p>
+				</div>
 			</div>
 			<div className={styles.infoBox}>
-				<div className={styles.box4}></div>
-				<p>Bridge Game</p>
+				<a href='https://fcondori1.github.io/bridge-game/' target='_blank'>
+					<div className={styles.box4}></div>
+				</a>
+				<div className={styles.boxes}>
+					<p className={styles.details}>Bridge Game</p>
+					<p className={styles.details}>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id quas
+						dolore eveniet! Beatae doloribus necessitatibus, illo dicta officiis
+						id reiciendis. Corrupti, ducimus? Cupiditate, obcaecati adipisci
+						aspernatur temporibus delectus fugit.
+					</p>
+				</div>
 			</div>
 		</div>
 	);
