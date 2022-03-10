@@ -43,3 +43,12 @@
 	display: flex;
 	flex-direction: row;
 }
+
+.details {
+	width: 500px;
+	text-align: center;
+}
+
+.boxes {
+	padding-left: 50px;
+}
