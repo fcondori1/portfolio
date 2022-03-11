@@ -52,3 +52,8 @@
 .boxes {
 	padding-left: 50px;
 }
+
+.gitDetails {
+	text-align: center;
+	font-weight: 500;
+}
