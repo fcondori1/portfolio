@@ -12,7 +12,7 @@ function About(props) {
 					<div className={styles.info}>
 						<div>
 							<p className={styles.text}>
-								WElCOME! My name is Frankz and I am a graduate of management at Salisbury University. I love gaming, soccer, and of course coding! This new passion is what inspired me to change career paths. Check out some of the stuff I have worked on!
+								WELCOME! My name is Frankz and I am a graduate of management at Salisbury University. I love gaming, soccer, and of course coding! This new passion is what inspired me to change career paths. Check out some of the stuff I have worked on!
 							</p>
 							<p className={styles.text}>
 								Software Engineer with management and communication skills
