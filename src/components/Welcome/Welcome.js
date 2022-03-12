@@ -6,13 +6,13 @@ import 'animate.css';
 function Welcome(props) {
 	return (
 		<div className={styles.welcomePage}>
-			<h1 className={styles.introPage}>Frankz Portfolio</h1>
-			<Link to='/about'>
+			<h1 className={styles.introPage}>Frankz Condori: Full Stack Developer</h1>
+			{/* <Link to='/about'>
 				<h2
 					className={`${styles.animate__animated} ${styles.animate__pulse} ${styles.animate__infinite}`}>
 					Click here to get to know a bit more about me!
 				</h2>
-			</Link>
+			</Link> */}
 		</div>
 	);
 }
