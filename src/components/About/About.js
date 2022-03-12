@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './About.module.css';
 import { Link } from 'react-router-dom';
+import Welcome from '../Welcome/Welcome';
 
 function About(props) {
 	return (
 		<>
 			<div className={styles.containerL}>
-				<h2>Frankz Condori: Full Stack Developer</h2>
+				{/* <h2>Frankz Condori: Full Stack Developer</h2> */}
+				<Welcome />
 				<div className={styles.container}>
 					<h2>About Me:</h2>
 					<div className={styles.info}>
