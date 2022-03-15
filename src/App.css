@@ -1,4 +1,9 @@
+
 html * {
   background-color: #10aed6;
   color: rgb(221, 244, 255);
+  font-family: 'Cabin', sans-serif;
+  /* font-family: 'EB Garamond', serif; */
+  /* font-family: 'Roboto', sans-serif; */
+
 }

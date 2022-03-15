@@ -9,7 +9,7 @@ import 'animate.css';
 import Footer from './components/Footer/Footer';
 
 function App() {
-	const { pathname } = useLocation();
+	// const { pathname } = useLocation();
 	return (
 		<div className='App'>
 			<Nav />
