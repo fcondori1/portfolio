@@ -29,17 +29,18 @@ function Nav(props) {
 							<a
 								target='_blank'
 								rel='noreferrer'
+								className={styles.navLink}
 								href='https://docs.google.com/document/d/1MC2-wEsYiCKh6lgyDVsnpoQfQ_RnquQkdNntGw29CqU/edit?usp=sharing'>
 								Resume
 							</a>
 						</li>
-									<button className={styles.navBtn} onClick={handleToggle}>
+						{/* <button className={styles.navBtn} onClick={handleToggle}>
 										{navbarOpen ? (
 											<GrClose style={{ width: '30px', height: '30px ' }} />
 										) : (
 											<GrMenu style={{ width: '30px', height: '30px' }} />
 										)}
-									</button>
+									</button> */}
 					</ul>
 				</div>
 			</nav>
