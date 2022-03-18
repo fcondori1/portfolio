@@ -41,7 +41,7 @@ function Projects(props) {
 					</a>
 				</div>
 			</div>
-			<div className={styles.infoBox}>
+			{/* <div className={styles.infoBox}>
 				<a href='https://my-gifts.netlify.app/' target='_blank'>
 					<div className={styles.box3}></div>
 				</a>
@@ -57,7 +57,7 @@ function Projects(props) {
 						<div className={styles.gitDetails}>Github Repository</div>
 					</a>
 				</div>
-			</div>
+			</div> */}
 			<div className={styles.infoBox}>
 				<a href='https://fcondori1.github.io/bridge-game/' target='_blank'>
 					<div className={styles.box4}></div>
