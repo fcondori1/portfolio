@@ -33,7 +33,7 @@ li {
 }
 
 .picture {
-    background-image: url('/assets/frank.png');
+    background-image: url('/src/assets/frank.png');
     background-size: 100%;
     border-radius: 10px;
     width: 200px;
@@ -62,6 +62,10 @@ li {
 
 .animate__animated.animate__zoomIn {
   --animate-duration: 2s;
+}
+
+.icon{
+    padding: 20px;
 }
 
 @media screen and (min-width: 600px) {

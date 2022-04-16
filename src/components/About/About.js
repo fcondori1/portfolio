@@ -44,7 +44,7 @@ function About(props) {
 									alt='javascript'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -57,7 +57,7 @@ function About(props) {
 									alt='python'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -70,7 +70,7 @@ function About(props) {
 									alt='react'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -83,7 +83,7 @@ function About(props) {
 									alt='html5'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -96,7 +96,7 @@ function About(props) {
 									alt='css3'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -109,7 +109,7 @@ function About(props) {
 									alt='express'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -122,7 +122,7 @@ function About(props) {
 									alt='nodejs'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -135,7 +135,7 @@ function About(props) {
 									alt='mongodb'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -148,7 +148,7 @@ function About(props) {
 									alt='postgresql'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 							<a
@@ -161,7 +161,7 @@ function About(props) {
 									alt='heroku'
 									width='40'
 									height='40'
-									className='animate__animated animate__zoomIn'
+									className='icon animate__animated animate__zoomIn'
 								/>
 							</a>
 						</p>
