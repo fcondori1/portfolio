@@ -10,15 +10,17 @@ function About(props) {
 			<div className='containerL'>
 				{/* <h2>Frankz Condori: Full Stack Developer</h2> */}
 				<Welcome />
+				<div className='picture'></div>
 				<div className='container'>
-					<h2>About Me:</h2>
+					<h2 className='titleA'>About Me:</h2>
 					<div className='info'>
 						<div>
 							<p className='text'>
-								WELCOME! My name is Frankz (yes with a 'z') and I am a graduated with a management degree at
-								Salisbury University. I love gaming, soccer, and of course
-								coding! This new passion is what inspired me to change career
-								paths. Check out some of the stuff I have worked on on the projects page!
+								WELCOME! My name is Frankz (yes with a 'z') and I am a graduated
+								with a management degree at Salisbury University. I love gaming,
+								soccer, and of course coding! This new passion is what inspired
+								me to change career paths. Check out some of the stuff I have
+								worked on on the projects page!
 							</p>
 							<p className='text'>
 								Software Engineer with management and communication skills
@@ -28,7 +30,6 @@ function About(props) {
 								technology.
 							</p>
 						</div>
-						<div className='picture'></div>
 					</div>
 					<div className='skills'>
 						<h2>Languages and Tools:</h2>
