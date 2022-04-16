@@ -27,7 +27,8 @@ body {
   overflow:hidden;
   white-space:nowrap;
   font-size: 20px;
-  padding: 20px;
+  padding: 20px 0px;
+  text-align: center;
 }
 
 .introPage:first-of-type {
