@@ -1,49 +1,22 @@
-.icons1 {
-	background-image: url('../../../assets/gmail_logo.png');
-	background-size: 40px;
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 40px;
-	height: 40px;
-	padding: 20px 30px;
-}
-
-.icons2 {
-	background-image: url('../../../assets/github_logo.png');
-	background-size: 40px;
-	background-repeat: no-repeat;
-	/* display: flex;
-	justify-content: center; */
-	width: 40px;
-	height: 40px;
-	padding: 20px 30px;
-}
-
-.icons3 {
-	background-image: url('../../../assets/linkedin_logo.png');
-	background-size: 40px;
-	background-repeat: no-repeat;
-	/* display: flex;
-	justify-content: center; */
-	width: 40px;
-	height: 40px;
-	padding: 20px 30px;
-}
 
 .foot {
-	display: flex;
-	flex-direction: row;
-	/* align-items: center; */
-	justify-content: space-evenly;
-}
-
-.footers {
 	display: flex;
 	/* flex-direction: row; */
 	justify-content: center;
 	align-items: center;
+	/* border-top: 10px solid black; */
+}
+
+.foot-icons {
+	background-size: 40px;
+	background-repeat: no-repeat;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	width: 30px;
+	height: 30px;
+	padding: 20px 20px;
+	margin-top: 20px;
 }
 
 .animate__animated {
