@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { GrClose } from 'react-icons/gr';
-import { GrMenu } from 'react-icons/gr';
+// import { GrClose } from 'react-icons/gr';
+// import { GrMenu } from 'react-icons/gr';
 import styles from './Nav.module.css';
 
 function Nav(props) {
@@ -11,8 +11,6 @@ function Nav(props) {
 		setNavbarOpen(!navbarOpen);
 	};
 	return (
-		<>
-			<nav>
 				<div className={styles.menuNav}>
 					<ul className={styles.navLists}>
 						<li className={styles.navList}>
@@ -43,8 +41,6 @@ function Nav(props) {
 									</button> */}
 					</ul>
 				</div>
-			</nav>
-		</>
 	);
 }
 

@@ -1,6 +1,6 @@
 
 .box1 {
-	background-image: url('/assets/Felp.png');
+	background-image: url('/src/assets/Felp.png');
 	background-size: cover;
 	width: 400px;
 	height: 200px;
@@ -9,7 +9,7 @@
 }
 
 .box2 {
-	background-image: url('/assets/Golazo.png');
+	background-image: url('/src/assets/Golazo.png');
 	background-size: cover;
 	width: 400px;
 	height: 200px;
@@ -18,7 +18,7 @@
 }
 
 .box3 {
-	background-image: url('/assets/My-Gifts.png');
+	background-image: url('/src/assets/My-Gifts.png');
 	background-size: cover;
 	width: 400px;
 	height: 200px;
@@ -27,7 +27,7 @@
 }
 
 .box4 {
-	background-image: url('/assets/Bridge-Game.png');
+	background-image: url('/src/assets/Bridge-Game.png');
 	background-size: cover;
 	width: 400px;
 	height: 200px;
