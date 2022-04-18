@@ -1,10 +1,7 @@
 
 .box {
-	/* background-image: url('/src/assets/Felp.png'); */
-	/* background-size: cover; */
-	width: 400px;
-	height: 200px;
-	/* background-repeat: no-repeat; */
+	width: 280px;
+	height: 140px;
 	margin: 20px;
 }
 
@@ -14,19 +11,32 @@
 
 .infoBox {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .details {
-	width: 500px;
+	width: 280px;
 	text-align: center;
-}
+	align-items: center;
 
-.boxes {
-	padding-left: 50px;
 }
 
 .gitDetails {
 	text-align: center;
 	font-weight: 500;
+}
+
+@media screen and (min-width: 600px) {
+	.infoBox {
+		flex-direction: row;
+	}
+
+	.box {
+		width: 400px;
+		height: 200px;
+	}
+
+	.boxes {
+		padding-left: 100px;
+	}
 }
