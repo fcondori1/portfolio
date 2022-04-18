@@ -1,16 +1,21 @@
 import React from 'react';
-import styles from './Projects.module.css';
+import './Projects.css';
+import felp from '../../assets/Felp.png';
+import golazo from '../../assets/Golazo.png';
+import bridge from '../../assets/Bridge-Game.png';
+// import gifts from '../../assets/My-Gifts.png';
+
 
 function Projects(props) {
 	return (
-		<div className={styles.bigBox}>
-			<div className={styles.infoBox}>
+		<div className='bigBox'>
+			<div className='infoBox'>
 				<a href='https://felp-official.netlify.app/' target='_blank'>
-					<div className={styles.box1}></div>
+					<img src={felp} alt='felp app webpage' className='box'></img>
 				</a>
-				<div className={styles.boxes}>
-					<p className={styles.details}>Felp</p>
-					<p className={styles.details}>
+				<div className='boxes'>
+					<p className='details'>Felp</p>
+					<p className='details'>
 						A full stack application using React, MongoDB, Mongoose, and
 						Express. Collaborated with other developers through pair programming
 						to produce a single page application while maintaining a feature
@@ -19,17 +24,17 @@ function Projects(props) {
 					<a
 						href='https://github.com/team-one-coders/felp-frontend'
 						target='_blank'>
-						<div className={styles.gitDetails}>Github Repository</div>
+						<div className='gitDetails'>Github Repository</div>
 					</a>
 				</div>
 			</div>
-			<div className={styles.infoBox}>
+			<div className='infoBox'>
 				<a href='https://sleepy-sammet-19bc3d.netlify.app/' target='_blank'>
-					<div className={styles.box2}></div>
+					<img src={golazo} alt='golazo app webpage' className='box'></img>
 				</a>
-				<div className={styles.boxes}>
-					<p className={styles.details}>Golazo Highlights App</p>
-					<p className={styles.details}>
+				<div className='boxes'>
+					<p className='details'>Golazo Highlights App</p>
+					<p className='details'>
 						A live database application using React that allows the user to see
 						recent soccer matches using a 3rd party API to display data through
 						components.
@@ -37,41 +42,41 @@ function Projects(props) {
 					<a
 						href='https://github.com/fcondori1/golazo-highlights-app'
 						target='_blank'>
-						<div className={styles.gitDetails}>Github Repository</div>
+						<div className='gitDetails'>Github Repository</div>
 					</a>
 				</div>
 			</div>
-			{/* <div className={styles.infoBox}>
+			{/* <div className='infoBox'>
 				<a href='https://my-gifts.netlify.app/' target='_blank'>
-					<div className={styles.box3}></div>
+					<div className='box3'></div>
 				</a>
-				<div className={styles.boxes}>
-					<p className={styles.details}>My Gifts</p>
-					<p className={styles.details}>
+				<div className='boxes'>
+					<p className='details'>My Gifts</p>
+					<p className='details'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id quas
 						dolore eveniet! Beatae doloribus necessitatibus, illo dicta officiis
 						id reiciendis. Corrupti, ducimus? Cupiditate, obcaecati adipisci
 						aspernatur temporibus delectus fugit.
 					</p>
 					<a href='https://github.com/fcondori1/front-my-gifts' target='_blank'>
-						<div className={styles.gitDetails}>Github Repository</div>
+						<div className='gitDetails'>Github Repository</div>
 					</a>
 				</div>
 			</div> */}
-			<div className={styles.infoBox}>
+			<div className='infoBox'>
 				<a href='https://fcondori1.github.io/bridge-game/' target='_blank'>
-					<div className={styles.box4}></div>
+					<img src={bridge} alt='bridge-game webpage' className='box'></img>
 				</a>
-				<div className={styles.boxes}>
-					<p className={styles.details}>Bridge Game</p>
-					<p className={styles.details}>
+				<div className='boxes'>
+					<p className='details'>Bridge Game</p>
+					<p className='details'>
 						A browser based game using Javascript, HTML and CSS. It uses modals,
 						DOM manipulation, and event listeners to display a random path on
 						the bridge to navigate yourself to get to the end with a life
 						counter.
 					</p>
 					<a href='https://github.com/fcondori1/bridge-game' target='_blank'>
-						<div className={styles.gitDetails}>Github Repository</div>
+						<div className='gitDetails'>Github Repository</div>
 					</a>
 				</div>
 			</div>
