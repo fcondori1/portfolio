@@ -10,7 +10,6 @@ function About(props) {
 			<div className='containerL'>
 				{/* <h2>Frankz Condori: Full Stack Developer</h2> */}
 				<Welcome />
-				<div className='picture'></div>
 				<div className='container'>
 					<h2 className='titleA'>About Me:</h2>
 					<div className='info'>
@@ -31,6 +30,7 @@ function About(props) {
 							</p>
 						</div>
 					</div>
+				<div className='picture'></div>
 					<div className='skills'>
 						<h2>Languages and Tools:</h2>
 						<p align='center'>
