@@ -33,12 +33,18 @@ li {
 }
 
 .picture {
-    background-image: url('/src/assets/frank.png');
+    background-image: url('/src/assets/Frankz.png');
     background-size: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
+    filter: grayscale(1005);
+    /* opacity: .5; */
+}
+
+.picture {
+    
 }
 
 .text {
