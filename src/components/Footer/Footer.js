@@ -11,7 +11,7 @@ function Footer(props) {
 				<img
 					src={github}
 					alt='github logo'
-					className='foot-icons animate__animated animate__fadeInLeft'></img>
+					className='foot-icons animate__fadeInLeft'></img>
 			</a>
 			<a
 				href='https://www.linkedin.com/in/frankz-condori/'
@@ -20,13 +20,13 @@ function Footer(props) {
 				<img
 					src={linkedin}
 					alt='linkedin logo'
-					className='foot-icons animate__animated animate__fadeInUp'></img>
+					className='foot-icons animate__fadeInUp'></img>
 			</a>
 			<a href='mailto:frankzcondori@gmail.com' target='_blank' rel='noreferrer'>
 				<img
 					src={gmail}
 					alt='gmail logo'
-					className='foot-icons animate__animated animate__fadeInRight'></img>
+					className='foot-icons animate__fadeInRight'></img>
 			</a>
 		</div>
 	);
