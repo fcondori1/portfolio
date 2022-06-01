@@ -80,6 +80,20 @@ function Projects(props) {
 					</a>
 				</div>
 			</div>
+			<div className='infoBox'>
+				<a href='https://fcondori1.github.io/salon/' target='_blank'>
+					<img src={bridge} alt='salon webpage' className='box'></img>
+				</a>
+				<div className='boxes'>
+					<p className='details'>Salon Site</p>
+					<p className='details'>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sint voluptatum iure impedit voluptas fugiat dignissimos quia, veniam ex illo ducimus doloribus ipsa harum consectetur, hic quas tempora obcaecati. Autem!
+					</p>
+					<a href='https://github.com/fcondori1/salon' target='_blank'>
+						<div className='gitDetails'>Github Repository</div>
+					</a>
+				</div>
+			</div>
 		</div>
 	);
 }
