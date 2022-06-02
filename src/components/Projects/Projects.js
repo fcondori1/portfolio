@@ -82,7 +82,7 @@ function Projects(props) {
 				</div>
 			</div>
 			<div className='infoBox'>
-				<a href='https://github.com/fcondori1/salon-nr' target='_blank'>
+				<a href='https://noelia.netlify.app/' target='_blank'>
 					<img src={salon} alt='salon webpage' className='box'></img>
 				</a>
 				<div className='boxes'>
@@ -93,7 +93,7 @@ function Projects(props) {
 						illo ducimus doloribus ipsa harum consectetur, hic quas tempora
 						obcaecati. Autem!
 					</p>
-					<a href='https://github.com/fcondori1/salon' target='_blank'>
+					<a href='https://github.com/fcondori1/salon-nr' target='_blank'>
 						<div className='gitDetails'>Github Repository</div>
 					</a>
 				</div>
