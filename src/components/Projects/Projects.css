@@ -28,6 +28,10 @@
 	font-weight: 500;
 }
 
+.box:hover {
+	opacity: 70%;
+}
+
 @media screen and (min-width: 600px) {
 	.infoBox {
 		flex-direction: row;
