@@ -3,6 +3,8 @@ import React from 'react';
 import './About.css'
 import { Link } from 'react-router-dom';
 import Welcome from '../Welcome/Welcome';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
 function About(props) {
 	return (

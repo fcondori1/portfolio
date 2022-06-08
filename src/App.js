@@ -1,5 +1,6 @@
 import './App.css';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import 'react-slideshow-image/dist/styles.css';
 // import Welcome from './components/Welcome/Welcome';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
